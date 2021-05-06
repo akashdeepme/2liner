@@ -1,0 +1,23 @@
+{
+  "name": "2liner",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "static": "next build && next export",
+    "start": "next start"
+  },
+  "dependencies": {
+    "isomorphic-unfetch": "^3.1.0",
+    "mongodb": "^3.6.5",
+    "next": "10.0.9",
+    "next-pwa": "^5.2.21",
+    "node-html-to-image": "^3.1.0",
+    "nprogress": "^0.2.0",
+    "preact": "^10.5.13",
+    "react": "17.0.1",
+    "react-dom": "17.0.1",
+    "swr": "^0.5.5"
+  }
+}
